@@ -94,7 +94,7 @@
 
     </style>
 @section('content')
-<div class="container">
+<div class="content">
         <div class="title m-b-md">
             Conrad's Cat Litter
         </div>

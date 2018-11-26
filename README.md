@@ -1,107 +1,121 @@
-Frameworks {#Frameworks}
-==========
+# Frameworks
 
--   Why should I use one?
--   I\'ve take Conrads class and I\'m an expert on all web things
--   They seem like a hassle
+  - Why should I use one?
+  - I've taken Conrads class and I'm an expert on all web things
+  - They seem like a hassle
 
-[]{#Popular}**Popular**
+<span id="Popular"></span>**Popular**
 
--   [Ruby on Rails](https://rubyonrails.org/)
--   [Django Python](https://www.djangoproject.com/)
--   [Laravel PHP](https://laravel.com/)
--   [Buffalo Go](https://gobuffalo.io/en)
+  - [Ruby on Rails](https://rubyonrails.org/)
+  - [Django Python](https://www.djangoproject.com/)
+  - [Laravel PHP](https://laravel.com/)
+  - [Buffalo Go](https://gobuffalo.io/en)
 
-MVC {#MVC}
----
+## MVC
 
--   It\'s convienent to break things up
--   Model
-    -   Data driven applications
--   View
-    -   How do users interact with the system
--   Controller
-    -   Glue everything together
--   Where do I put by business logic in the Model wait not the
+  - It's convienent to break things up
+  - Model
+      - Data driven applications
+  - View
+      - How do users interact with the system
+  - Controller
+      - Glue everything together
+  - Where do I put by business logic in the Model wait not the
     Controller?
-    -   Create Services to handle different domains
+      - Create Services to handle different domains
 
-Dependency Injection {#Dependency Injection}
---------------------
+## Dependency Injection
 
--   Service Container
-    -   Dependency management
-    -   Dependency injection
--   Binding
-    -   Basics
-    -   Tagging
-    -   Contextual
--   Resolving
-    -   Make
-    -   Automatic injection via type hinting
+  - Service Container
+      - Dependency management
+      - Dependency injection
+  - Binding
+      - Basics
+      - Tagging
+      - Contextual
+  - Resolving
+      - Make
+      - Automatic injection via type hinting
 
-Tooling {#Tooling}
--------
+## Tooling
 
-php artisan env \--list environment variables php artisan make:model
-Todo -a \-- migration, factory, and resource
+  - php artisan env --list environment variables
+  - php artisan make:model Todo -a -- migration, factory, and resource
 
-### Database {#Database}
+### Database
 
--   I\'m not a DBA
--   Migrations
-    -   Create
-    -   Rollback
-    -   Status
+  - I'm not a DBA
+  - Migrations
+      - Create
+      - Rollback
+      - Status
 
-### Testing {#Testing}
+### Testing
 
-php artisan make:test === Debugging===
+  - php artisan make:test
 
--   how quickly can you find problems
-    -   debugbar
+\=== Debugging===
 
-### Logging {#Logging}
+  - how quickly can you find problems
+      - debugbar
 
--   What is happening with in my application
--   What problems are my users seeing
+### Logging
 
-Application Setup {#Application Setup}
-=================
+  - What is happening with in my application
+  - What problems are my users seeing
 
-[ILoveCats](http://ilovecats.test/) laravel new ILoveCats chmod +x
-artisan git init git add -A git commit
+### Security
 
-Vagrant stuff {#Vagrant stuff}
--------------
+  - Validation
+      - Form
+  - Injection
+      - Binding parameters
+      - Prepared statements
+  - Authorization
+      - Roles
+      - Access
+  - Authentication
 
--   Homestead.yaml folders:
-    -   map: \~/code to: /home/vagrant/code
+# Application Setup
 
-vagrant up vagrant reload \--provision
+  - [ILoveCats](http://ilovecats.test/)
+  - laravel new ILoveCats
+  - chmod +x artisan
+  - git init
+  - git add -A
+  - git commit
 
-Authentication {#Authentication}
---------------
+## Vagrant stuff
 
-php artisan make:auth cd \~/Homestead php artisan migrate
+  - Homestead.yaml folders:
+      - map: \~/code to: /home/vagrant/code
 
-Blade Templating {#Blade Templating}
-----------------
+<!-- end list -->
 
--   Reuse
--   Logic
--   Binding
+  - vagrant up
+  - vagrant reload --provision
 
-Deploy {#Deploy}
-------
+## Authentication
 
--   Maybe if we have enough time
+  - php artisan make:auth
+  - cd \~/Homestead
+  - php artisan migrate
 
-Resources {#Resources}
-=========
+## Blade Templating
 
-Can you include these links in the readme?
+  - Reuse
+  - Logic
+  - Binding
 
--   <https://jsfiddle.net/adenF/njf4vts0/>
--   <https://documenter.getpostman.com/view/5578104/RWgqUxxh#65a180ca-458c-4dd9-be3f-5af2764a075d>
--   <https://thecatapi.com/>
+## Deploy
+
+  - Maybe if we have enough time
+
+# Resources
+
+Can you include these links in the
+    readme?
+
+  - <https://jsfiddle.net/adenF/njf4vts0/>
+  - <https://documenter.getpostman.com/view/5578104/RWgqUxxh#65a180ca-458c-4dd9-be3f-5af2764a075d>
+  - <https://thecatapi.com/>
