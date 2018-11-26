@@ -37,6 +37,11 @@
       - Make
       - Automatic injection via type hinting
 
+## Organization
+
+  - Reduce duplication
+  - Conventions
+
 ## Tooling
 
   - php artisan env --list environment variables
@@ -54,7 +59,7 @@
 
   - php artisan make:test
 
-\=== Debugging===
+### Debugging
 
   - how quickly can you find problems
       - debugbar
